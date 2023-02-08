@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color:#fdfcfb ;
+        }
+        #navabar-1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f5f5f5;
+        }
+
+        .logo {
+            height: 100px;
+            width: 100px;
+
+        }
+
+        .margin {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        #Links a {
+            text-decoration: none;
+            color: rgb(40, 40, 40)
+        }
+
+        #navbar-2 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .logo-2 {
+            height: 20px;
+            width: 20px;
+            margin-left: 10px;
+        }
+
+        .navbar-2-logo {
+            height: 20px;
+            width: 20px;
+        }
+
+        #navbar-2-logo,
+        #navbar-2-links,
+        #search-links {
+            width: 33%;
+
+
+        }
+
+        #navbar-2-links a {
+            text-decoration: none;
+            color: white;
+            margin-left: 10px;
+            font-size: larger;
+        }
+
+        #search-links {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        #search {
+            height: 30px;
+            border-radius: 15px;
+            padding-right: 20px;
+            padding-left: 20px;
+            font-size: 15px;
+        }
+
+        /*Navbar 3 */
+        #navbar-3 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: #f5f5f5;
+            padding: 10px;
+
+        }
+
+        #navbar-3 h4,
+        #navbar-3 h6 {
+            margin: 0;
+        }
+
+        /*Imagenes de las cartas*/
+        #image-cards-1 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #image-cards-1 img {
+            width: 32%;
+            border-radius: 15px;
+            border: 1px solid gray;
+        }
+
+        #additional-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .small-text,
+        .big-text {
+            margin: 0;
+            padding: 5px;
+        }
+
+        .big-text {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        #additional-text button {
+            border-radius: 20px;
+            margin-top: 15px;
+            padding: 10px 20px 10px 20px;
+            font-size: 15px;
+            background-color: rgb(28, 28, 28);
+            color: white;
+        }
+
+        #image-cards-2 img {
+            width: 32%;
+            border-radius: 15px;
+            border: 1px solid gray;
+        }
+
+        #footer-box-1 {
+            width: 70%;
+            margin: 40px auto;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #footer-box-2 {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: black;
+            color: white;
+
+        }
+
+        .box-1 {
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            
+
+        }
+
+        .box-2 img {
+            width: 20px;
+
+        }
+
+        .grey {
+            font-size: small;
+            color: gray;
+        }
+
+        .box-3 {
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            background-color: black;
+
+        }
+
+        .box-3 div {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .box-3 div img {
+            width: 20px;
+            height: 20px;
+            margin-top: 10px;
+        }
+
+        .container-1,
+        container-2 {
+            width: 20%;
+
+        }
+        .box-3-text{
+            color: gray;
+        }
+
+
+
+        /*Style Navbar 2*/
+    </style>
+    <title>Libur</title>
+</head>
+
+<body>
+    <div id="navabar-1" class="margin">
+        <img src="http://cdn.shopify.com/s/files/1/0567/3608/8237/files/logoLibur.png?v=1660846677" class="logo" />
+        <div id="Links">
+            <a href="">Help|</a>
+            <a href="">Join Us|</a>
+            <a href="">Sign In</a>
+
+
+        </div>
+
+    </div>
+
+    <div id="navbar-2" class="margin">
+        <div id="navbar-2-logo">
+            <img src="https://cdn.shopify.com/s/files/1/0567/3608/8237/files/92F218FA-8E5A-4AF9-95B1-3428EABCD34B_256x256_b51d73b2-235f-4fe2-8284-4e83a7b4833c_600x.webp?v=1660848022"
+                class="logo" />
+        </div>
+
+
+        <div id="navbar-2-links">
+            <a href="">Men|</a>
+            <a href="">Women|</a>
+            <a href="">Kids|</a>
+            <a href="">Sale|</a>
+            <a href="">SNKRS</a>
+        </div>
+        <div id="search-links">
+            <input type="text" id="search" placeholder="Search">
+
+            <img src="https://cdn-icons-png.flaticon.com/512/2662/2662503.png" class="logo-2" />
+            <img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" class="logo-2" />
+        </div>
+    </div>
+    <!--Navbar 3-->
+    <div id="navbar-3" class="margin">
+        <h4> Free Delivery</h4>
+        <h6>Shop All our new Markdows</h6>
+    </div>
+    <!--Image cards-->
+    <div id="image-cards-1" class="margin">
+        <img src="images/cap1.png" />
+        <img src="images/cap2.png" />
+        <img src="images/cap3.png" />
+
+    </div>
+    <!--Texto Adicional -->
+    <div id="additional-text">
+        <h1 class="small-text">Guie to collection</h1>
+        <h1 class="big-text">ULTIMATE COLLECTION</h1>
+        <P class="small-text">Celebrá los últimos 50 años de innovaciones, atletas y momentos icónicos que han definido
+            el futuro del deporte.
+            Unite a nosotros para crear juntos lo que sigue.
+        </P>
+        <button>Shop</button>
+
+    </div>
+    <div id="image-cards-2" class="margin">
+        <img
+            src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bbe0fb94-8267-4fd4-9add-ad1a815ae001/sudadera-con-gorro-de-tejido-fleece-jordan-flight-ch25Lz.png" />
+        <img
+            src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/04b559ae-1a38-458c-a887-a3532130e384/pants-funcionales-jordan-essentials-F0MNZ6.png" />
+        <img
+            src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/cfdfe8a1-ee33-4608-b551-fb5e75c82c5c/pants-jordan-brooklyn-fleece-N2GF5D.png" />
+
+    </div>
+    <!--Texto Adicional -->
+    <div id="additional-text">
+        <h1 class="small-text">Ultimate Collection Jordan </h1>
+        <h1 class="big-text">BET SELLERS</h1>
+        <h2 class="small-text">Celebrá los últimos 50 años de innovaciones, atletas y momentos icónicos que han definido
+            el futuro del deporte.
+            Unite a nosotros para crear juntos lo que sigue.
+        </h2>
+        <button>Shop</button>
+        <!--Flooter box-->
+        <div id="footer-box-1">
+            <div>
+                <h4>Men Sneakers</h4>
+                <p>Jordan 1</p>
+                <p>Nike Sb Dunk</p>
+                <p>Jordan 3</p>
+                <p>Ver todo</p>
+
+
+            </div>
+
+            <div>
+                <h4>Men clothing</h4>
+                <p>Jordan</p>
+                <p>Supreme</p>
+                <p>Stussy</p>
+                <p>Drew</p>
+
+            </div>
+            <div>
+                <h4>Women clothing</h4>
+                <p>Jordan</p>
+                <p>Supreme</p>
+                <p>Stussy</p>
+                <p>Drew</p>
+            </div>
+            < </div>
+        </div>
+        <!--Footer box 2-->
+        <div id="footer-box-2">
+            <div class="box-1">
+                <div>
+                    <h4>Find a Store</h4>
+                    <h4>Become a member</h4>
+                    <h4>Sign Up</h4>
+                    <h4>Students Discount</h4>
+                    <h4>Send Us Feedback</h4>
+                </div>
+                <div>
+                    <h4>Get Help</h4>
+                    <p class="grey">Hombres</p>
+                    <p class="grey">Sneakers</p>
+                    <p class="grey">Streetwear</p>
+                </div>
+                <div>
+                    <h4>About Nike</h4>
+                    <p class="grey"> LifeStyle</p>
+                    <p class="grey">Sneakers</p>
+                    <p class="grey">Streetwear</p>
+                </div>
+
+            </div>
+            <div class="box-2 ">
+                <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" >
+
+            </div>
+
+             </div>
+                <div class="box-3">
+                    <div class="container-1" >
+                        <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="">
+                        <p>Medellin , Colombia</p>
+                        <p>© 2023 Libur, Inc. Todos los derechos reservados</p>
+                    </div>
+                    <div>
+                        <div class="container-2">
+                            <p class="box-3-text">Guide</p>
+                            <p class="box-3-text">Terms of servie</p>
+                            <p class="box-3-text">Privacy Policy</p>
+                            <p class="box-3-text">Terms of sale</p>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+</body>
+
+</html>
